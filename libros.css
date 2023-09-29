@@ -1,0 +1,79 @@
+body {
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  background: white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.verde :hover {
+  color: rgb(113, 255, 47);
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 0.5 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+}
+
+.navigation li a:hover {
+  color: greenyellow;
+}
+
+.main {
+  padding-top: 3%;
+}
+
+.island_popup {
+  position: absolute;
+  top: 10px;
+  width: 120px;
+  height: 25px;
+  background: black;
+  border-radius: 25px;
+  transition: 0.7s ease-in-out;
+  left: 1000px;
+}
+
+.island_popup:hover {
+  width: 300px;
+  height: 200px;
+}
